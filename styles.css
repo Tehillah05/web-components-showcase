@@ -1,0 +1,111 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(163, 166, 173, 0.4);
+  }
+  
+  /* Profile Card Container */
+  .profile-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px 3px rgb(241, 129, 77);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Profile Image */
+  .profile-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Profile Name and Title */
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0d0d;
+    margin: 5px 0;
+  }
+  
+  .profile-title {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0 15px 0;
+  }
+  
+  /* Description */
+  .profile-description {
+    font-size: 14px;
+    font-weight: 600;
+    color: #353434;
+    margin: 10px 0 20px 0;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: flex;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #ec6308;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .links a {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-links a:hover {
+    color: rgb(241, 129, 77);
+  }
+
+  a > img {
+    width: 40px; /* Set consistent size for icons */
+    height: 40px; /* Keep icons square */
+    margin-bottom: 5px; /* Space between icon and text */
+  }
+
+  a > img:hover {
+    color: rgb(241, 129, 77);
+  }
+
+
+  /* Contact Button */
+  .contact-btn {
+    background: #ec6308;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+  }
+  
+  .contact-btn:hover {
+    background: rgb(241, 129, 77);
+  }
+  
