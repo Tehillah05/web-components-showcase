@@ -15,7 +15,7 @@ git clone https://github.com/Tehillah05/web-components-showcase.git
 3. Modify the components as needed for your own projects.
 
 ## Components
-###1. Profile Card
+1. Profile Card
 A clean, modern profile card featuring a profile picture, name, title, description, and social media links.
 Includes hover effects and responsive design for various screen sizes.
 (More components will be added over time.)
